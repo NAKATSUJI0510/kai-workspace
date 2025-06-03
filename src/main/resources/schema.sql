@@ -36,8 +36,8 @@ CREATE TABLE texts
    book TEXT,
    name TEXT,
    price INTEGER,
-   isbn INTEGER,
-   state INTEGER
+   isbn VARCHAR(20),
+   state_id INTEGER
 );
 -- 会員テーブル
 CREATE TABLE users
