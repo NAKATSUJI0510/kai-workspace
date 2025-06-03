@@ -1,5 +1,5 @@
 -- 管理者テーブルデータ
-INSERT INTO admin(id, password) VALUES(00, himitu);
+INSERT INTO admin(email, password) VALUES(root@#, himitu);
 -- 学部テーブルデータ
 INSERT INTO categories(name) VALUES('文学部');
 INSERT INTO categories(name) VALUES('教育学部');

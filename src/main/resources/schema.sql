@@ -13,6 +13,7 @@ DROP TABLE IF EXISTS ordered_items;
 CREATE TABLE admin
 (
 	id SERIAL PRIMARY KEY,
+	email TEXT,
 	password TEXT
 );
 -- 学部テーブル
@@ -38,7 +39,7 @@ CREATE TABLE texts
    isbn INTEGER,
    state INTEGER
 );
--- ユーザテーブル
+-- 会員テーブル
 CREATE TABLE users
 (
    id SERIAL PRIMARY KEY,
